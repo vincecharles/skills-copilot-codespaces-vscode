@@ -31,4 +31,5 @@ http.createServer(function(request, response) {
         }
     });
 }).listen(3000, function() {
-    console.log('Server running at http://
+    console.log('Server running at http://localhost:3000/');
+});
